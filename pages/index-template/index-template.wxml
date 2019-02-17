@@ -1,0 +1,19 @@
+ <template name="index-content">
+ <view class='content-containers'>
+      <view class='content-container'>
+        <image src="{{head_image}}"></image>
+        <text>{{time}}</text>
+      </view>
+      <text class='content-title'>{{title}}</text>
+      <image class='content-image' src="{{content_image}}"></image>
+      <text class='content-text'>{{content_text}}
+     </text>
+      <view class='content-bottom'>
+        <image class='content-message-image' src="{{message_image}}"></image>
+        <text class='content-message'>{{message_text}}</text>
+        <image class='content-good-image' src="{{good_image}}"></image>
+        <text class='content-good'>{{good_text}}</text>
+      </view>
+    </view>
+</template>
+  

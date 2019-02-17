@@ -1,0 +1,78 @@
+.content-container{
+  margin:10rpx 0 20rpx 10rpx;
+}
+
+.content-container image {
+  width: 60rpx;
+  height: 60rpx;
+  /* 文本垂直居中 */
+  vertical-align: middle;
+}
+
+.content-container text {
+  margin-left: 20rpx;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  font-size: 26rpx;
+}
+
+.content-title{
+  font-size: 34rpx;
+  /* 字体加粗 */
+  font-weight: bold;
+  color:#333;
+  /* 水平方向用rpx 垂直方向用rpx */
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+
+.content-image {
+  width: 100%;
+  height: 340rpx;
+  margin: 0 0 15px 0;
+}
+
+
+.content-text{
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  /* 文本间距 */
+  letter-spacing:2rpx;
+  line-height: 40rpx; 
+}
+
+
+.content-bottom{
+  flex-direction: row;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 10rpx;
+}
+
+.content-message-image {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  /* 垂直居中 */
+  vertical-align: middle;
+}
+
+.content-message {
+  vertical-align: middle;
+  margin-right: 20rpx;
+} 
+
+.content-good-image {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.content-good {
+  vertical-align: middle;
+  margin-right: 20rpx;
+}
