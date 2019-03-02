@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.5.1",
 	"appid": "wx721f351f57a2e66d",
-	"projectname": "demo-1",
+	"projectname": "wxmicroservice",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

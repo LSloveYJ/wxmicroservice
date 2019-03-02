@@ -1,7 +1,7 @@
 <!-- 先静后动 先样式再数据 -->
 <view class='detailContainer'>
   <image class='headImage' src='{{headImage}}'></image>
-  <image class='audio' src='/images/music/music-start.png'></image>
+  <image class='audio' catchtap='onMusicTap' src="{{isPlayMusic?'/images/music/music-stop.png':'/images/music/music-start.png'}}"></image>
   <view class='avatarContainer'>
     <image class='avatarImage' src='{{head_image}}'></image>
     <text class='name'>{{name}}</text>
@@ -10,11 +10,12 @@
   </view>
   <text class='title'>{{title}}</text>
   <view class='tool'>
-  <view class='circle-images'>
-    <image class='collect' src='/images/icon/collection.png'></image>
-    <image class='share' src='/images/icon/share.png'></image>
-  </view>
-  <view class='horizon'></view>
+    <view class='circle-images'>
+      <image wx:if="{{collenction}}" class='collect' catchtap='collenctionTap' src='/images/icon/collection.png'></image>
+      <image wx:else class='collect' catchtap='collenctionTap' src='/images/icon/collection-anti.png'></image>
+      <image class='share' catchtap='onShareTap' src='/images/icon/share.png'></image>
+    </view>
+    <view class='horizon'></view>
   </view>
   <text class='content'>{{content_text}}</text>
 </view>

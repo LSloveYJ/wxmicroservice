@@ -11,7 +11,12 @@ var contidion = [{
   postId: 0,
   headImage: "/images/post/crab.png",
   name: "阳澄湖",
-  date: "一天前"
+  date: "一天前",
+  music: {
+    url: "http://ws.stream.qqmusic.qq.com/C100002mWVx72p8Ugp.m4a?fromtag=38",
+    title: "恋恋风尘-老狼",
+    coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000001VaXQX1Z1Imq.jpg?max_age=2592000",
+  }
 }, {
   head_image: "/images/head.png",
   time: "2020-01-30",
@@ -25,7 +30,12 @@ var contidion = [{
   postId: 1,
   headImage: "/images/post/bl.png",
   name: "美国",
-  date: "一天前"
+  date: "一天前",
+  music: {
+    url: "http://ws.stream.qqmusic.qq.com/C100000Zn0vS4fKKo8.m4a?fromtag=38",
+    title: "沉默是金-张国荣",
+    coverImg: "http://y.gtimg.cn/music/photo_new/T002R150x150M000003at0mJ2YrR2H.jpg?max_age=2592000"
+  }
 }]
 
 module.exports.contidion = contidion
